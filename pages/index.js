@@ -1,5 +1,16 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import JSArticle from '../component/JSArticle.js';
+import NavBar from '../component/NavBar.js';
+
+// MUI Import
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 export default function Home() {
   return (
@@ -10,9 +21,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>
-          Assignment 2 - React Components
-        </h1>
+        <NavBar title="Assignment 2"/>
+        <Container maxWidth="md">
+          <Box>
+            <Typography variant="h2" component="h2" color="primary" align="center">Assignment 2 - React Components and Styling</Typography>
+            <Typography variant="subtitle1" color="secondary" align="center">Here's a list of awesome resources that you can use</Typography>
+            <JSArticle/>
+          </Box>
+        </Container>
       </main>
     </div>
   )
