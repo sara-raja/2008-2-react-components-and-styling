@@ -21,7 +21,7 @@ export default function Home() {
         <Container maxWidth="md">
           <Box>
             <Typography variant="h2" component="h2" color="primary" align="center">Assignment 2 - React Components and Styling</Typography>
-            <Typography variant="subtitle1" color="secondary" align="center">Here's a list of awesome resources that you can use</Typography>
+            <Typography variant="subtitle1" color="secondary" align="center">Here is a list of awesome resources that you can use</Typography>
             <JSArticle/>
           </Box>
         </Container>
