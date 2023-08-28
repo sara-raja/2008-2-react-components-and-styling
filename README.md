@@ -1,19 +1,3 @@
-# Assignment 2 Starter
+Simple React project using Material UI components along with JSX to display content.
 
-## Getting Started
-
-1. install all of the dependencies of the project.
-
-```bash
-npm install
-```
-
-2. run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) to browse the project.
+Project link: https://2008-2-react-components-and-styling.vercel.app/
